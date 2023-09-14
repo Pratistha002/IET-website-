@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IET WEBSITE </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&family=Poppins:wght@400;600;700&family=Varela+Round&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+
+    <section class="header">
+        
+      <nav>
+        <a href="index.html"><img src="Bundelkhand_University_Logo.png" > </a>
+      <div class="nav-links"  id="navlinks">
+        <i class="fa fa-times"  onclick="hideMenu()"></i>
+    <ul>
+ <li><a href="">HOME</a></li>
+ <li><a href="">ABOUT</a></li>
+ <li><a href="">COURSE</a></li>
+ <li><a href="">BLOG</a></li>
+ <li><a href="">CONTACT</a></li>
+
+</ul>
+</div>
+<i class="fa fa-bars"  onclick="showMenu()"></i>
+    </nav>
+
+
+    <div class="text-box">
+    <h1>IET,Bundelkhand University</h1>
+    <p>Making Website is now one of the easiest thing in the world. You just need to learn HTML, CSS,<br> Javascript and you are good to go.</p>
+    <a href="" class="hero-btn"> Visit us to Know More</a>
+    </section>
+
+<!----- Course ----->
+
+<section class="course">
+  <h1>Courses We Offer</h1>
+  <p>We offer Many courses to enhance students skills . </p>
+
+<div class="row">
+  
+  <div class="course-col">
+    <h3>Diploma</h3>
+    <p> We offer polytechnic courses of 2 year of duration with 8 specialization.</p>
+  </div>
+
+  <div class="course-col">
+    <h3>Graduation</h3>
+    <p> We Offer B.tech courses of 4 year of duration with 8 specialization. </p>
+  </div>
+
+  <div class="course-col">
+    <h3>  Post Graduation</h3>
+    <p> We offer M.tech courses of 2years duration with 4 specialization and MBA courses of 2 year of duration.</p>
+  </div>
+
+</div>
+</section>
+<!----Campus----->
+
+<section class="campus">
+
+<h1>Our Campus</h1>
+<p>Bundelkhand University is one of the top State University in Jhansi, Uttar Pradesh.
+  Bundelkhand University was approved by AICTE and UGC. Ranked 68 For Pharmacy By NIRF 2021.
+</p>
+
+
+<div class="row">
+  <div class="campus-col">
+       <img src="Innovation.jpg">
+<div class="layer">
+  <h3> Innovation center</h3>
+</div>
+
+  </div>
+  <div class="campus-col">
+    <img src="Auditorium.jpg">
+<div class="layer">
+<h3> Auditorium</h3>
+</div>
+
+</div>
+<div class="campus-col">
+  <img src="international center">
+<div class="layer">
+<h3>International center </h3>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!--- Facilities--->
+
+<section class="facilities">
+  <h1> Our Facilities</h1>
+  <p> We have smart class , smart labs , library, gym area , innovation centre, clubs etc. </p>
+<div class="row">
+
+<div class="facilities-col">
+  <img src="drone.jpg">
+  <h3>Innovation center </h3>
+  <p>We have innovation centers where students make interesting projects and learn through it. </p>
+</div>
+<div class="facilities-col">
+  <img src="computer labs.jpg">
+  <h3>Computer labs  </h3>
+  <p> We have computer labs where students learn coding and others development and skills</p>
+</div>
+
+<div class="facilities-col">
+  <img src="library.jpg">
+  <h3>Library </h3>
+  <p>we have large library where students can learn theory subjects and do friendship with books.</p>
+</div>
+
+
+
+</div>
+
+
+
+
+</section>
+
+
+    
+<!-------Javascript for toggle menu ---------->
+    <script>
+      
+      var navLinks= document.getElementById("navLinks");
+    function showMenu(){
+      navLinks.style.right ="0";
+
+    }
+    function hideMenu(){
+      navLinks.style.right = "-200";
+    }
+    
+    </script>
+</body>
+</html>
