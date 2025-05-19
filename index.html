@@ -1,153 +1,323 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IET WEBSITE </title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&family=Poppins:wght@400;600;700&family=Varela+Round&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IET Bundelkhand University</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
-    <section class="header">
-        
-      <nav>
-        <a href="index.html"><img src="Bundelkhand_University_Logo.png" > </a>
-      <div class="nav-links"  id="navlinks">
-        <i class="fa fa-times"  onclick="hideMenu()"></i>
-    <ul>
- <li><a href="">HOME</a></li>
- <li><a href="">ABOUT</a></li>
- <li><a href="">COURSE</a></li>
- <li><a href="">BLOG</a></li>
- <li><a href="">CONTACT</a></li>
+<!-- Header Section -->
+<section class="header">
+  <nav>
+    <a href="index.html"><img src="Bundelkhand_University_Logo.png" alt="BU Logo"></a>
+    <div class="nav-links" id="navLinks">
+      <i class="fa fa-times" onclick="hideMenu()"></i>
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#courses">COURSE</a></li>
+        <li><a href="#gallery">GALLERY</a></li>
+        <li><a href="#blog">BLOG</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+  </nav>
 
-</ul>
-</div>
-<i class="fa fa-bars"  onclick="showMenu()"></i>
-    </nav>
+  <div class="text-box">
+    <h1>IET, Bundelkhand University</h1>
+    <p>Creating websites is now easier than ever. Learn HTML, CSS, JavaScript and start building!</p>
+    <a href="#about" class="hero-btn">Visit Us to Know More</a>
+  </div>
+</section>
 
+<!-- About Section -->
+<section id="about" class="about">
+  <h1>About IET BU</h1>
+  <p>IET BU, or the Institute of Engineering & Technology at Bundelkhand University in Jhansi, Uttar Pradesh, is a public institution established in 1975. It's affiliated with Bundelkhand University and is approved by AICTE and MHRD, New Delhi, as well as by the UP Board of Technical Education and the State Government of UP. The institute offers a variety of engineering courses, including B.Tech, M.E./M.Tech, and MBA/PGDM, with specializations like Electronics & Communication Engineering, Information Technology, and Mechanical Engineering. </p>
+<p>Key features of IET BU:<br>
+Established: 1975.<br>
+Affiliation: Bundelkhand University.<br>
+Approvals: AICTE, MHRD, UP Board of Technical Education, State Government of UP.<br>
+Course Offerings: B.Tech, M.E./M.Tech, MBA/PGDM.<br>
+Specializations: Electronics & Communication Engineering, Information Technology, Mechanical Engineering, etc.<br>
+Accreditation: Approved by AICTE. <br>
+Additional Information:<br>
+The institute also has a Department of Food Engineering and Technology.<br> 
+The institute has a placement ratio of 70% with the highest package around 17 Lacs and the lowest around 4 Lacs, according to Shiksha. <br>
+Top recruiting companies include Larsen and Toubro and HLS Asia according to Shiksha. <br>
+The institute's website <a href="https://www.bujhansi.ac.in/en">www.bujhansi.ac.in/en</a> is also known as BU Jhansi.. </p>
+</section>
 
-    <div class="text-box">
-    <h1>IET,Bundelkhand University</h1>
-    <p>Making Website is now one of the easiest thing in the world. You just need to learn HTML, CSS,<br> Javascript and you are good to go.</p>
-    <a href="" class="hero-btn"> Visit us to Know More</a>
-    </section>
-
-<!----- Course ----->
-
-<section class="course">
+<!-- Courses Section -->
+<section id="courses" class="course">
   <h1>Courses We Offer</h1>
-  <p>We offer Many courses to enhance students skills . </p>
-
-<div class="row">
-  
-  <div class="course-col">
-    <h3>Diploma</h3>
-    <p> We offer polytechnic courses of 2 year of duration with 8 specialization.</p>
+  <p>We offer many courses to enhance student skills.</p>
+  <div class="row">
+    <div class="course-col">
+      <h3>Diploma</h3>
+      <p>Polytechnic courses of 2 years with 8 specializations.</p>
+    </div>
+    <div class="course-col">
+      <h3>Graduation</h3>
+      <p>B.Tech courses of 4 years with 8 specializations.</p>
+    </div>
+    <div class="course-col">
+      <h3>Post Graduation</h3>
+      <p>M.Tech and MBA courses of 2 years each.</p>
+    </div>
   </div>
-
-  <div class="course-col">
-    <h3>Graduation</h3>
-    <p> We Offer B.tech courses of 4 year of duration with 8 specialization. </p>
-  </div>
-
-  <div class="course-col">
-    <h3>  Post Graduation</h3>
-    <p> We offer M.tech courses of 2years duration with 4 specialization and MBA courses of 2 year of duration.</p>
-  </div>
-
-</div>
 </section>
-<!----Campus----->
 
+<!-- Campus Section -->
 <section class="campus">
-
-<h1>Our Campus</h1>
-<p>Bundelkhand University is one of the top State University in Jhansi, Uttar Pradesh.
-  Bundelkhand University was approved by AICTE and UGC. Ranked 68 For Pharmacy By NIRF 2021.
-</p>
-
-
-<div class="row">
-  <div class="campus-col">
-       <img src="Innovation.jpg">
-<div class="layer">
-  <h3> Innovation center</h3>
-</div>
-
+  <h1>Our Campus</h1>
+  <p>Bundelkhand University is a top state university in Jhansi, UP, approved by AICTE and UGC.</p>
+  <div class="row">
+    <div class="campus-col">
+      <img src="Innovation.jpg" alt="Innovation Center">
+      <div class="layer">
+        <h3>Innovation Center</h3>
+      </div>
+    </div>
+    <div class="campus-col">
+      <img src="gdsc bu.webp" alt="GDSC Club">
+      <div class="layer">
+        <h3>GDSC Club</h3>
+      </div>
+    </div>
+    <div class="campus-col">
+      <img src="library.jpg" alt="Library">
+      <div class="layer">
+        <h3>Library</h3>
+      </div>
+    </div>
   </div>
-  <div class="campus-col">
-    <img src="Auditorium.jpg">
-<div class="layer">
-<h3> Auditorium</h3>
-</div>
-
-</div>
-<div class="campus-col">
-  <img src="international center">
-<div class="layer">
-<h3>International center </h3>
-</div>
-
-</div>
-
-</div>
-
 </section>
 
-
-<!--- Facilities--->
-
+<!-- Facilities Section -->
 <section class="facilities">
-  <h1> Our Facilities</h1>
-  <p> We have smart class , smart labs , library, gym area , innovation centre, clubs etc. </p>
-<div class="row">
-
-<div class="facilities-col">
-  <img src="drone.jpg">
-  <h3>Innovation center </h3>
-  <p>We have innovation centers where students make interesting projects and learn through it. </p>
-</div>
-<div class="facilities-col">
-  <img src="computer labs.jpg">
-  <h3>Computer labs  </h3>
-  <p> We have computer labs where students learn coding and others development and skills</p>
-</div>
-
-<div class="facilities-col">
-  <img src="library.jpg">
-  <h3>Library </h3>
-  <p>we have large library where students can learn theory subjects and do friendship with books.</p>
-</div>
-
-
-
-</div>
-
-
-
-
+  <h1>Our Facilities</h1>
+  <p>We provide modern labs, library, gym area, innovation centre, and clubs.</p>
+  <div class="row">
+    <div class="facilities-col">
+      <img src="Innovation.jpg" alt="Innovation Center">
+      <h3>Innovation Center</h3>
+      <p>Students build exciting projects using the latest tech including drones.</p>
+    </div>
+    <div class="facilities-col">
+      <img src="computer labs.jpg" alt="Computer Lab">
+      <h3>Computer Labs</h3>
+      <p>Equipped labs to learn coding and software development.</p>
+    </div>
+    <div class="facilities-col">
+      <img src="library.jpg" alt="Library">
+      <h3>Library</h3>
+      <p>Explore books, journals and study resources in a peaceful environment.</p>
+    </div>
+  </div>
 </section>
 
-
+<!-- Photos and Videos Section -->
+<section id="gallery" class="gallery">
+  <h1>Photos & Videos</h1>
+  <p>Explore student life, events, and activities at IET Bundelkhand University.</p>
+  
+  <div class="gallery-container">
+    <div class="gallery-item">
+      <img src="WhatsApp Image 2025-04-09 at 18.52.27.jpeg" alt="Farewell" class="gallery-img">
+      <div class="gallery-overlay">
+        <h3>B.Tech CSE Farewell</h3>
+        <p>Click to view</p>
+      </div>
+    </div>
     
-<!-------Javascript for toggle menu ---------->
-    <script>
+    <div class="gallery-item">
+      <img src="WhatsApp Image 2025-05-18 at 15.08.32.jpeg" alt="Farewell" class="gallery-img">
+      <div class="gallery-overlay">
+        <h3>B.Tech CSE Farewell</h3>
+        <p>Click to view</p>
+      </div>
+    </div>
+    
+    <div class="gallery-item">
+      <img src="WhatsApp Image 2025-05-20 at 00.00.01.jpeg" alt="Farewell" class="gallery-img">
+      <div class="gallery-overlay">
+        <h3>B.Tech CSE Farewell</h3>
+        <p>Click to view</p>
+      </div>
+    </div>
+    
+    <div class="gallery-item">
+      <img src="WhatsApp Image 2025-05-19 at 23.59.40.jpeg" alt="Farewell" class="gallery-img">
+      <div class="gallery-overlay">
+        <h3>B.Tech CSE Farewell</h3>
+        <p>Click to view</p>
+      </div>
+    </div>
+    
+    <div class="gallery-item">
+      <img src="WhatsApp Image 2025-05-18 at 15.09.29.jpeg" alt="Farewell" class="gallery-img">
+      <div class="gallery-overlay">
+        <h3>B.Tech CSE Farewell</h3>
+        <p>Click to view</p>
+      </div>
+    </div>
+    
+    <div class="gallery-item">
+      <img src="WhatsApp Image 2025-05-20 at 00.06.58.jpeg" alt="Farewell" class="gallery-img">
+      <div class="gallery-overlay">
+        <h3>B.Tech CSE Farewell</h3>
+        <p>Click to view</p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Lightbox Modal for Images -->
+  <div id="imageModal" class="modal">
+    <span class="close-modal">&times;</span>
+    <img class="modal-content" id="modalImg">
+    <div id="modalCaption"></div>
+  </div>
+</section>
+
+<!-- Blog Section -->
+<section id="blog" class="course">
+  <h1>Latest Blog</h1>
+  <p>Stay tuned for insights, events, and student experiences at IET BU.</p>
+  <div class="row">
+    <div class="course-col">
+      <h3>Tech Fest 2025</h3>
+      <p>Our annual fest was a blast with new innovations showcased by students.</p>
+    </div>
+    <div class="course-col">
+      <h3>Alumni Meet</h3>
+      <p>A successful reunion of past graduates now working in top MNCs.</p>
+    </div>
+    <div class="course-col">
+      <h3>Placement Drive</h3>
+      <p>Companies like Infosys, TCS, and Wipro visited our campus.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="facilities">
+  <h1>Contact Us</h1>
+  <p>Have any questions? Reach out to us below.</p>
+  <form action="#" class="contact-form">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <input type="text" placeholder="Subject" required>
+    <textarea rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit" class="hero-btn">Send Message</button>
+  </form>
+</section>
+
+<!-- Footer Section -->
+<section class="footer">
+  <h4>About Us</h4>
+  <p>IET BU Jhansi focuses on quality education, innovation, and hands-on training for engineers and tech leaders of tomorrow.</p>
+  
+  <!-- Visitor Counter -->
+  <div class="visitor-counter">
+    <h5>Visitor Count</h5>
+    <div class="counter-display" id="visitorCount">0</div>
+  </div>
+  
+  <div class="icons">
+    <i class="fab fa-facebook"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-linkedin"></i>
+    <i class="fab fa-twitter"></i>
+  </div>
+  <p>Made with ❤️ by Pratistha Singh</p>
+</section>
+
+<!-- JavaScript for Menu Toggle -->
+<script>
+  var navLinks = document.getElementById("navLinks");
+  function showMenu() {
+    navLinks.style.right = "0";
+  }
+  function hideMenu() {
+    navLinks.style.right = "-200px";
+  }
+</script>
+
+<!-- JavaScript for Gallery Modal -->
+<script>
+  // Get the modal
+  var modal = document.getElementById("imageModal");
+  
+  // Get the modal image and caption
+  var modalImg = document.getElementById("modalImg");
+  var captionText = document.getElementById("modalCaption");
+  
+  // Get all gallery items
+  var galleryItems = document.querySelectorAll(".gallery-item");
+  
+  // Add click event to all gallery items
+  galleryItems.forEach(function(item) {
+    item.addEventListener("click", function() {
+      modal.style.display = "block";
+      modalImg.src = this.querySelector(".gallery-img").src;
+      captionText.innerHTML = this.querySelector(".gallery-overlay h3").innerText;
+    });
+  });
+  
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close-modal")[0];
+  
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+  
+  // Close the modal when clicking outside the image
+  modal.addEventListener("click", function(event) {
+    if (event.target === modal) {
+      modal.style.display = "none";
+    }
+  });
+</script>
+
+<!-- JavaScript for Visitor Counter -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // Get the visitor count element
+    const visitorCountElement = document.getElementById("visitorCount");
+    
+    // Check if localStorage is supported
+    if (typeof(Storage) !== "undefined") {
+      // Get the current total count from localStorage
+      let totalCount = localStorage.getItem("totalVisits");
       
-      var navLinks= document.getElementById("navLinks");
-    function showMenu(){
-      navLinks.style.right ="0";
+      // If this is the first visit, initialize the count
+      if (totalCount === null) {
+        totalCount = 1;
+      } else {
+        // Convert to number and increment
+        totalCount = parseInt(totalCount) + 1;
+      }
+      
+      // Save the updated count back to localStorage
+      localStorage.setItem("totalVisits", totalCount);
+      
+      // Update the display
+      visitorCountElement.textContent = totalCount;
+    } else {
+      // If localStorage is not supported, show a message
+      visitorCountElement.textContent = "Not available";
+    }
+  });
+</script>
 
-    }
-    function hideMenu(){
-      navLinks.style.right = "-200";
-    }
-    
-    </script>
 </body>
 </html>
